@@ -17,7 +17,7 @@ apt-get install -y ./debootstrap_1.0.124_all.deb
 
 patch /usr/lib/live/build/binary_grub-efi < live-build-fix-shim-remove.patch
 
-ln -sfn /usr/share/debootstrap/scripts/gutsy /usr/share/debootstrap/scripts/impish
+ln -sfn /usr/share/debootstrap/scripts/gutsy /usr/share/debootstrap/scripts/jammy
 
 echo -e "
 #----------------------#
