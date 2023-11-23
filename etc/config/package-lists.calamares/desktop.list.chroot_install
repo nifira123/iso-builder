@@ -2,4 +2,6 @@
 ubuntu-standard
 discover
 laptop-detect
-lubuntu-desktop
+xserver-xorg
+lxdm
+icewm
